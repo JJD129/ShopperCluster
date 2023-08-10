@@ -17,6 +17,20 @@ from sklearn.ensemble import RandomForestClassifier
 ```
 ## Data Source
 The dataset named "Customers.csv" is sourced from Kaggle and located in the /kaggle/input/customers-dataset/ directory.
+https://www.kaggle.com/datasets/datascientistanna/customers-dataset
+
+Shop Customer Data is a detailed analysis of an imaginative shop's ideal customers. It helps a business to better understand its customers. The owner of a shop gets information about Customers through membership cards.
+
+The dataset consists of 2000 records and 8 columns:
+
+* Customer ID
+* Gender
+* Age
+* Annual Income
+* Spending Score - Score assigned by the shop, based on customer behavior and spending nature
+* Profession
+* Work Experience - in years
+* Family Size
 
 ## Data Exploration and Visualization
 1. Loading Data: The dataset is loaded into a dataframe using pandas. Initial exploration includes checking the head of the dataframe, unique values, and missing values.
